@@ -9,4 +9,29 @@
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/button_with_sso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="with sso" />
+
+    <Button
+        android:id="@+id/button_without_sso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="without sso" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout" />
+
+</LinearLayout>
+
 </LinearLayout>
