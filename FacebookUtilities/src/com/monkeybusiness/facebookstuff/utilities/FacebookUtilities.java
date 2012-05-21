@@ -91,97 +91,162 @@ public class FacebookUtilities
 	 * 
 	 * 	- User and Friends Permissions;
 	 */
-	/** Provides access to the "About Me" section of the profile in the about property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the "About Me" section of the profile in the about property */
 	public static final String PERMISSION_USER_ABOUT_ME = "user_about_me";
-	/** Provides access to the "About Me" section of the profile in the about property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the "About Me" section of the profile in the about property */
 	public static final String PERMISSION_FRIENDS_ABOUT_ME = "friends_about_me";
-	/** Provides access to the user's list of activities as the activities connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's list of activities as the activities connection */
 	public static final String PERMISSION_USER_ACTIVITIES = "user_activities";
-	/** Provides access to the user's list of activities as the activities connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's list of activities as the activities connection */
 	public static final String PERMISSION_FRIENDS_ACTIVITIES = "friends_activities";
-	/** Provides access to the birthday with year as the birthday property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the birthday with year as the birthday property */
 	public static final String PERMISSION_USER_BIRTHDAY = "user_birthday";
-	/** Provides access to the birthday with year as the birthday property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the birthday with year as the birthday property */
 	public static final String PERMISSION_FRIENDS_BIRTHDAY = "friends_birthday";
-	/** Provides read access to the authorized user's check-ins or a friend's check-ins that the user can see. This permission is superseded by user_status for new applications as of March, 2012. */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides read access to the authorized user's check-ins or a friend's check-ins that the user can see. This permission is superseded by user_status for new applications as of March, 2012. */
 	public static final String PERMISSION_USER_CHECKINS = "user_checkins";
-	/** Provides read access to the authorized user's check-ins or a friend's check-ins that the user can see. This permission is superseded by user_status for new applications as of March, 2012. */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides read access to the authorized user's check-ins or a friend's check-ins that the user can see. This permission is superseded by user_status for new applications as of March, 2012. */
 	public static final String PERMISSION_FRIENDS_CHECKINS = "friends_checkins";
-	/** Provides access to education history as the education property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to education history as the education property */
 	public static final String PERMISSION_USER_EDUCATION_HISTORY = "user_education_history";
-	/** Provides access to education history as the education property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to education history as the education property */
 	public static final String PERMISSION_FRIENDS_EDUCATION_HISTORY = "friends_education_history";
-	/** Provides access to the list of events the user is attending as the events connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the list of events the user is attending as the events connection */
 	public static final String PERMISSION_USER_EVENTS = "user_events";
-	/** Provides access to the list of events the user is attending as the events connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the list of events the user is attending as the events connection */
 	public static final String PERMISSION_FRIENDS_EVENTS = "friends_events";
-	/** Provides access to the list of groups the user is a member of as the groups connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the list of groups the user is a member of as the groups connection */
 	public static final String PERMISSION_USER_GROUPS = "user_groups";
-	/** Provides access to the list of groups the user is a member of as the groups connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the list of groups the user is a member of as the groups connection */
 	public static final String PERMISSION_FRIENDS_USER_GROUPS = "user_groups";
-	/** Provides access to the user's hometown in the hometown property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's hometown in the hometown property */
 	public static final String PERMISSION_USER_HOMETOWN = "user_hometown";
-	/** Provides access to the user's hometown in the hometown property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's hometown in the hometown property */
 	public static final String PERMISSION_FRIENDS_HOMETOWN = "friends_hometown";
-	/** Provides access to the user's list of interests as the interests connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's list of interests as the interests connection */
 	public static final String PERMISSION_USER_INTERESTS = "user_interests";
-	/** Provides access to the user's list of interests as the interests connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's list of interests as the interests connection */
 	public static final String PERMISSION_FRIENDS_INTERESTS = "friends_interests";
-	/** Provides access to the list of all of the pages the user has liked as the likes connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the list of all of the pages the user has liked as the likes connection */
 	public static final String PERMISSION_USER_LIKES = "user_likes";
-	/** Provides access to the list of all of the pages the user has liked as the likes connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the list of all of the pages the user has liked as the likes connection */
 	public static final String PERMISSION_FRIENDS_LIKES = "friends_likes";
-	/** Provides access to the user's current location as the location property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's current location as the location property */
 	public static final String PERMISSION_USER_LOCATION = "user_location";
-	/** Provides access to the user's current location as the location property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's current location as the location property */
 	public static final String PERMISSION_FRIENDS_lOCATION = "friends_location";
-	/** Provides access to the user's notes as the notes connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's notes as the notes connection */
 	public static final String PERMISSION_USER_NOTES = "user_notes";
-	/** Provides access to the user's notes as the notes connection */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's notes as the notes connection */
 	public static final String PERMISSION_FRIENDS_NOTES = "friends_notes";
-	/** Provides access to the photos the user has uploaded, and photos the user has been tagged in */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the photos the user has uploaded, and photos the user has been tagged in */
 	public static final String PERMISSION_USER_PHOTOS = "user_photos";
-	/** Provides access to the photos the user has uploaded, and photos the user has been tagged in */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the photos the user has uploaded, and photos the user has been tagged in */
 	public static final String PERMISSION_FRIENDS_PHOTOS = "friends_photos";
-	/** Provides access to the questions the user or friend has asked */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the questions the user or friend has asked */
 	public static final String PERMISSION_USER_QUESTIONS = "user_questions";
-	/** Provides access to the questions the user or friend has asked */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the questions the user or friend has asked */
 	public static final String PERMISSION_FRIENDS_QUESTIONS = "friends_questions";
-	/** Provides access to the user's family and personal relationships and relationship status */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's family and personal relationships and relationship status */
 	public static final String PERMISSION_USER_RELATIONSHIPS = "user_relationships";
-	/** Provides access to the user's family and personal relationships and relationship status */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's family and personal relationships and relationship status */
 	public static final String PERMISSION_FRIENDS_RELATIONSHIPS = "friends_relationships";
-	/** Provides access to the user's relationship preferences */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's relationship preferences */
 	public static final String PERMISSION_USER_RELATIONSHIP_DETAILS = "user_relationship_details";
-	/** Provides access to the user's relationship preferences */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's relationship preferences */
 	public static final String PERMISSION_FRIENDS_RELATIONSHIP_DETAILS = "friends_relationship_details";
-	/** Provides access to the user's religious and political affiliations */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's religious and political affiliations */
 	public static final String PERMISSION_USER_RELIGION_POLITICS = "user_religion_politics";
-	/** Provides access to the user's religious and political affiliations */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's religious and political affiliations */
 	public static final String PERMISSION_FRIENDS_RELIGION_POLITICS = "friends_religion_politics";
-	/** Provides access to the user's status messages and checkins. Please see the documentation for the <a href="http://developers.facebook.com/docs/reference/fql/location_post/">location_post</a> table for information on how this permission may affect retrieval of information about the locations associated with posts. */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's status messages and checkins. Please see the documentation for the <a href="http://developers.facebook.com/docs/reference/fql/location_post/">location_post</a> table for information on how this permission may affect retrieval of information about the locations associated with posts. */
 	public static final String PERMISSION_USER_STATUS = "user_status";
-	/** Provides access to the user's status messages and checkins. Please see the documentation for the <a href="http://developers.facebook.com/docs/reference/fql/location_post/">location_post</a> table for information on how this permission may affect retrieval of information about the locations associated with posts. */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's status messages and checkins. Please see the documentation for the <a href="http://developers.facebook.com/docs/reference/fql/location_post/">location_post</a> table for information on how this permission may affect retrieval of information about the locations associated with posts. */
 	public static final String PERMISSION_FRIENDS_STATUS = "friends_status";
-	/** Provides access to the user's subscribers and subscribees */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's subscribers and subscribees */
 	public static final String PERMISSION_USER_SUBSCRIPTIONS = "user_subscriptions";
-	/** Provides access to the user's subscribers and subscribees */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's subscribers and subscribees */
 	public static final String PERMISSION_FRIENDS_SUBSCRIPTIONS = "friends_subscriptions";
-	/** Provides access to the videos the user has uploaded, and videos the user has been tagged in */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the videos the user has uploaded, and videos the user has been tagged in */
 	public static final String PERMISSION_USER_VIDEOS = "user_videos";
-	/** Provides access to the videos the user has uploaded, and videos the user has been tagged in */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the videos the user has uploaded, and videos the user has been tagged in */
 	public static final String PERMISSION_FRIENDS_VIDEOS = "friends_videos";
-	/** Provides access to the user's web site URL */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's web site URL */
 	public static final String PERMISSION_USER_WEBSITE = "user_website";
-	/** Provides access to the user's web site URL */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's web site URL */
 	public static final String PERMISSION_FRIENDS_WEBSITE = "friends_website";
-	/** Provides access to work history as the work property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to work history as the work property */
 	public static final String PERMISSION_USER_WORK_HISTORY = "user_work_history";
-	/** Provides access to work history as the work property */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to work history as the work property */
 	public static final String PERMISSION_FRIENDS_WORK_HISTORY = "friends_work_history";
-	/** Provides access to the user's primary email address in the email property. Do not spam users. Your use of email must comply both with <a href="http://www.facebook.com/terms.php">Facebook policies</a> and with the <a href="Provides access to the user's primary email address in the email property. Do not spam users. Your use of email must comply both with Facebook policies and with the CAN-SPAM Act.">CAN-SPAM Act</a>. */
+	/** <u><b>Permission group:</b></u> User and Friends Permissions<br><br> Provides access to the user's primary email address in the email property. Do not spam users. Your use of email must comply both with <a href="http://www.facebook.com/terms.php">Facebook policies</a> and with the <a href="Provides access to the user's primary email address in the email property. Do not spam users. Your use of email must comply both with Facebook policies and with the CAN-SPAM Act.">CAN-SPAM Act</a>. */
 	public static final String PERMISSION_USER_EMAIL = "email";
 	
+	/*
+	 * - Extended permissions
+	 */
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides access to any friend lists the user created. All user's friends are provided as part of basic data, this extended permission grants access to the lists of friends a user has created, and should only be requested if your application utilizes lists of friends. */
+	public static final String PERMISSION_READ_FRIENDLISTS = "read_friendlists";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides read access to the Insights data for pages, applications, and domains the user owns. */
+	public static final String PERMISSION_READ_INSIGHTS = "read_insights";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides the ability to read from a user's Facebook Inbox. */
+	public static final String PERMISSION_READ_MAILBOX = "read_mailbox";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides read access to the user's friend requests */
+	public static final String PERMISSION_READ_REQUESTS = "read_requests";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides access to all the posts in the user's News Feed and enables your application to perform searches against the user's News Feed */
+	public static final String PERMISSION_READ_STREAM = "read_stream";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides applications that integrate with Facebook Chat the ability to log in users. */
+	public static final String PERMISSION_XMPP_LOGIN = "xmpp_login";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides the ability to manage ads and call the Facebook Ads API on behalf of a user. */
+	public static final String PERMISSION_ADS_MANAGEMENT = "ads_management";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Enables your application to create and modify events on the user's behalf */
+	public static final String PERMISSION_CREATE_EVENT = "create_event";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Enables your app to create and edit the user's friend lists. */
+	public static final String PERMISSION_MANAGE_FRIENDLISTS = "manage_friendlists";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Enables your app to read notifications and mark them as read. <b>Intended usage</b>: This permission should be used to let users read and act on their notifications; it should not be used to for the purposes of modeling user behavior or data mining. Apps that misuse this permission may be banned from requesting it. */
+	public static final String PERMISSION_MANAGE_NOTIFICATIONS = "manage_natifications";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides access to the user's online/offline presence */
+	public static final String PERMISSION_USER_ONLINE_PRESENCE = "user_online_presence";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Provides access to the user's friend's online/offline presence */
+	public static final String PERMISSION_FRIENDS_ONLINE_PRESENCE = "friends_online_presence";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Enables your app to perform checkins on behalf of the user. */
+	public static final String PERMISSION_PUBLISH_CHECKINS = "publish_checkins";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Enables your app to post content, comments, and likes to a user's stream and to the streams of the user's friends. This is a superset <a href="https://developers.facebook.com/docs/publishing/">publishing permission</a> which also includes <b>publish_actions</b>. However, please note that Facebook recommends a user-initiated sharing model. Please read the <a href="https://developers.facebook.com/policy/">Platform Policies<a> to ensure you understand how to properly use this permission. Note, you do <b>not</b> need to request the <b>publish_stream</b> permission in order to use the <a href="https://developers.facebook.com/docs/reference/dialogs/feed/">Feed Dialog</a>, the <a href="https://developers.facebook.com/docs/reference/dialogs/requests/">Requests Dialog</a> or the <a href="https://developers.facebook.com/docs/reference/dialogs/send/">Send Dialog</a>. */
+	public static final String PERMISSION_STREAM = "publish_stream";
+	/** <u><b>Permission group:</b></u> Extended Permissions<br><br> Enables your application to RSVP to events on the user's behalf */
+	public static final String PERMISSION_RSVP_EVENT = "rsvp_event";
+
+	/*
+	 * - Open Graph Permissions
+	 */
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows your app to publish to the Open Graph using <a href="https://developers.facebook.com/docs/opengraph/actions/builtin/">Built-in Actions</a>, <a href="https://developers.facebook.com/docs/achievements/">Achievements</a>, <a href="https://developers.facebook.com/docs/score/">Scores</a>, or <a href="https://developers.facebook.com/docs/opengraph/define-actions/">Custom Actions</a>. Your app can also publish other activity which is detailed in the <a href="https://developers.facebook.com/docs/publishing/">Publishing Permissions</a> doc. Note: The user-prompt for this permission will be displayed in the first screen of the <a href="https://developers.facebook.com/docs/opengraph/authentication/">Enhanced Auth Dialog</a> and cannot be revoked as part of the authentication flow. However, a user can later revoke this permission in their Account Settings. If you want to be notified if this happens, you should subscribe to the <b>permissions</b> object within the <a href="https://developers.facebook.com/docs/reference/api/realtime/">Realtime API</a>. */
+	public static final String PERMISSION_PUBLISH_ACTIONS = "publish_actions";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you to retrieve the actions published by all applications using the built-in <b>music.listens</b> action. */
+	public static final String PERMISSION_USER_ACTIONS_MUSIC = "user_actions.music";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you to retrieve the actions published by all applications using the built-in <b>music.listens</b> action. */
+	public static final String PERMISSION_FRIENDS_ACTIONS_MUSIC = "friends_actions.music";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you to retrieve the actions published by all applications using the built-in <b>news.reads</b> action. */
+	public static final String PERMISSION_USER_ACTIONS_NEWS = "user_actions.news";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you to retrieve the actions published by all applications using the built-in <b>news.reads</b> action. */
+	public static final String PERMISSION_FRIENDS_ACTIONS_NEWS = "friends_actions.news";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you to retrieve the actions published by all applications using the built-in <b>video.watches</b> action. */
+	public static final String PERMISSION_USER_ACTIONS_VIDEO = "user_actions.video";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you to retrieve the actions published by all applications using the built-in <b>video.watches</b> action. */
+	public static final String PERMISSION_FRIENDS_ACTIONS_VIDEO = "friends_actions.video";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you retrieve the actions published by another application as specified by the app namespace. For example, to request the ability to retrieve the actions published by an app which has the namespace <b>awesomeapp</b>, prompt the user for the <b>users_actions:awesomeapp</b> and/or <b>friends_actions:awesomeapp</b> permissions. */
+	public static final String PERMISSION_USER_ACTIONS_APP_NAMESPACE = "user_actions:APP_NAMESPACE";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you retrieve the actions published by another application as specified by the app namespace. For example, to request the ability to retrieve the actions published by an app which has the namespace <b>awesomeapp</b>, prompt the user for the <b>users_actions:awesomeapp</b> and/or <b>friends_actions:awesomeapp</b> permissions. */
+	public static final String PERMISSION_FRIENDS_ACTIONS_APP_NAMESPACE = "friends_actions:APP_NAMESPACE";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you post and retrieve game achievement activity. */
+	public static final String PERMISSION_USER_GAMES_ACTIVITY = "user_games_activity";
+	/**  <u><b>Permission group:</b></u> Open Graph Permissions<br><br> Allows you post and retrieve game achievement activity. */
+	public static final String PERMISSION_FRIENDS_GAMES_ACTIVITY = "friends_games_activity";
+
+	/*
+	 *  - Page Permissions
+	 */
+	/**  <u><b>Permission group:</b></u> Page Permissions<br><br> Enables your application to retrieve access_tokens for Pages and Applications that the user administrates. The access tokens can be queried by calling <b>/&#60;user_id&#62;/accounts</b> via the Graph API. This permission is only compatible with the Graph API, not the deprecated REST API.<br> See <a href="">here</a> for generating long-lived Page access tokens that do not expire after 60 days. */
+	public static final String PERMISSION_MANAGE_PAGES = "manage_pages";
 	
 	/************************************************
 	 * Self Instances
