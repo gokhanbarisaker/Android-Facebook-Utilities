@@ -83,10 +83,6 @@ public class FacebookUtilities
 	private AsyncFacebookRunner asyncFacebookRunner;
 	
 	/*
-	 * TODO add missing permissions and re-check permissions.
-	 */
-	
-	/*
 	 * Facebook Permissions (http://developers.facebook.com/docs/authentication/permissions/)
 	 * 
 	 * 	- User and Friends Permissions;
@@ -304,6 +300,14 @@ public class FacebookUtilities
 	 ****************** Methods *********************
 	 ************************************************/
 	
+	/**
+	 * Invokes login process asynchronously.
+	 * 
+	 * @param activity
+	 * @param permissions
+	 * @param handler
+	 * @param ssoEnabled
+	 */
 	public void authorize(final Activity activity, List<String> permissions, final Handler handler, boolean ssoEnabled)
 	{
 		if(LOG)
@@ -365,7 +369,7 @@ public class FacebookUtilities
 	}
 	
 	/**
-	 * Invokes logout asynchronously.
+	 * Invokes logout asynchronously. State of logout delivered to given handler on process finish.
 	 * 
 	 * @param handler
 	 */
@@ -375,13 +379,18 @@ public class FacebookUtilities
 	}
 	
 	/**
-	 * Invokes logout asynchronously.
+	 * Invokes logout asynchronously. State of logout delivered to given handler on process finish.
 	 *
 	 * @param handler
 	 * @param state
 	 */
-	public void logout(final Handler handler, Object state)
+	public void logout(Handler handler, Object state)
 	{
+		if(LOG)
+		{
+			Log.d(TAG, "Logout requested");
+		}
+		
 		LogoutRequestListener listener = new LogoutRequestListener(handler);
 		
 		asyncFacebookRunner.logout(cookieJar, listener, state);
@@ -433,7 +442,7 @@ public class FacebookUtilities
 			//If handler isn't initialized
 			if(handler == null)
 			{//Inform developer with exception ^^.
-				throw new NullPointerException("A custom handler to inform activity with login status notifications has to be decleared. Take LoginHandler as reference, or use it directly for communication");
+				throw new NullPointerException("A custom handler to inform activity with login status notifications has to be decleared. Take AuthenticationHandler as reference, or use it directly for communication");
 			}
 			else
 			{
@@ -536,6 +545,11 @@ public class FacebookUtilities
 		}
     }
     
+    /**
+     * 
+     * @author Gökhan Barış Aker (gokhanbarisaker@gmail.com)
+     *
+     */
     class LogoutRequestListener implements AsyncFacebookRunner.RequestListener
     {
     	private Handler handler;
@@ -545,7 +559,7 @@ public class FacebookUtilities
     		//If handler isn't initialized
 			if(handler == null)
 			{//Inform developer with exception ^^.
-				throw new NullPointerException("A custom handler to inform activity with login status notifications has to be decleared. Take LoginHandler as reference, or use it directly for communication");
+				throw new NullPointerException("A custom handler, to inform activity with logout status notifications, has to be decleared. Take AuthenticationHandler as reference, or use it directly for communication");
 			}
 			else
 			{
