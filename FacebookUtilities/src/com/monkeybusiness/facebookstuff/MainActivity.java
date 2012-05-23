@@ -101,6 +101,6 @@ public class MainActivity extends Activity
 	{
         super.onActivityResult(requestCode, resultCode, data);
         
-        facebookUtilities.onActivityResult(requestCode, resultCode, data);
+        facebookUtilities.onActivityResult(handler, requestCode, resultCode, data);
     }
 }

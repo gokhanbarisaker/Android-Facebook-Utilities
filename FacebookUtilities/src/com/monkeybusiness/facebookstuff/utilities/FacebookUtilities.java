@@ -18,6 +18,7 @@ package com.monkeybusiness.facebookstuff.utilities;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.lang.ref.WeakReference;
 import java.net.MalformedURLException;
 import java.util.HashMap;
 import java.util.List;
@@ -391,9 +392,24 @@ public class FacebookUtilities
 			Log.d(TAG, "Logout requested");
 		}
 		
-		LogoutRequestListener listener = new LogoutRequestListener(handler);
+		if(!facebook.isSessionValid())
+		{
+			if(LOG)
+			{
+				Log.d(TAG, "Session is invalid, no need to logout.");
+			}
+		}
+		else
+		{
+			if(LOG)
+			{
+				Log.d(TAG, "Session is valid, attempting to logout.");
+			}
 		
-		asyncFacebookRunner.logout(cookieJar, listener, state);
+			LogoutRequestListener listener = new LogoutRequestListener(handler);
+		
+			asyncFacebookRunner.logout(cookieJar, listener, state);
+		}
 	}
 	
 	/**
@@ -406,10 +422,10 @@ public class FacebookUtilities
 	 * @param resultCode
 	 * @param data
 	 */
-	public void onActivityResult(int requestCode, int resultCode, Intent data)
+	public void onActivityResult(Handler handler, int requestCode, int resultCode, Intent data)
 	{
         System.out.println("Activity resulted with; requestCode: " + requestCode + ", resultCode: " + resultCode);
-		
+        
 		facebook.authorizeCallback(requestCode, resultCode, data);
 	}
 	
@@ -495,7 +511,6 @@ public class FacebookUtilities
 			
 			//Inform handler about login status
 			boolean messageSended = handler.sendMessage(loginStatusMessage);
-			//boolean messageSended = handler.sendEmptyMessage(LoginHandler.MESSAGE_LOGIN_ERROR);
 			
 			if(LOG)
 			{
@@ -516,11 +531,10 @@ public class FacebookUtilities
 			//Identify message as error
 			loginStatusMessage.what = AuthenticationHandler.MESSAGE_LOGIN_ERROR;
 			//Attach error object to message
-			loginStatusMessage.obj = e;
+			loginStatusMessage.obj = new Exception(e);
 			
 			//Inform handler about login status
 			boolean messageSended = handler.sendMessage(loginStatusMessage);
-			//boolean messageSended = handler.sendEmptyMessage(LoginHandler.MESSAGE_LOGIN_ERROR);
 
 			if(LOG)
 			{
