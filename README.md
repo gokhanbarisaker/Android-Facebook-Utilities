@@ -1,3 +1,10 @@
+!!!: Not recomemded to use, as V3 Facebook API covers the similar solution.
+
+
+
+
+
+
 Android-Facebook-Utilities
 ==========================
 
