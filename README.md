@@ -1,4 +1,5 @@
-!!!: Not recomemded to use, as V3 Facebook API covers the similar solution.
+!!!: Not recomemded to use
+!!!: as Android Facebook SDK v3 covers the similar solution with UILifecycleHelper Class.
 
 
 
